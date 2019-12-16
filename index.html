@@ -1,0 +1,60 @@
+<!--
+ * @Author: yumusb
+ * @Date: 2019-08-19 17:50:09
+ * @LastEditors: yumusb
+ * @LastEditTime: 2019-08-19 17:50:09
+ * @Description: 
+ -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v3.8.5">
+    <title>给山区里的孩子一碗热稀饭</title>
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/sign-in/">
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+        
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="./static/signin.css" rel="stylesheet">
+</head>
+
+<body class="text-center">
+    <form class="form-signin" method="post" action="./pay.php">
+        <img class="mb-4" src="./static/head.jpg" alt="" width="120" height="120" style="margin-right:9px"/>
+        <p style = "color:#666;margin-right:9px">给山区里的孩子一碗热稀饭</p>
+        <label for="money" class="sr-only">付款金额</label>
+        <input type="text" id="money" class="form-control" name="amount" placeholder="献爱心金额" required="" autofocus="">
+        <label for="reason" class="sr-only">付款理由</label>
+        <input type="text" id="reason" class="form-control" name="body" placeholder="献爱心理由" required="" maxlength="15" style="margin-top:5px">
+        <button class="btn btn-lg btn-primary btn-block" type="submit" style="margin-top:5px">马上献爱心</button>
+        <p class="mt-5 mb-3 text-muted">© 2019 <a href="http://haikesiqiang.gitee.io/erweimasanheyi/">三合一</a></p>
+    </form>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/yumusb/cdn@master/push.js"></script>
+</body>
+
+</html>
